@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .round {
+         border-radius: 50%;
+        }
+       </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
@@ -11,7 +16,7 @@
 </head>
 <body>
     <aside>
-        <img src="{% static 'main/img/banana.png' %}", alt="Лого", width="150">
+        <img src="{% static 'main/img/icon_test2.jpg' %}", alt="Лого", width="150" class="round">
         <span class="logo">fruits_wow</span>
         <h3>Навигация</h3>
         <ul>
